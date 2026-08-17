@@ -157,17 +157,18 @@ The model achieved the highest accuracy, F1 Score, and MCC among the five implem
 
 An interactive Streamlit web application was developed to demonstrate the trained classification models.
 
-The application provides the following functionality:
+The application provides:
+- Test data CSV upload
+- Model selection
+- Six evaluation metrics
+- Confusion matrix
+- Classification report
+- Model comparison
+- Interactive metric comparison chart
+- Overall best-performing model based on F1 Score
+- Prediction results
 
-1. Upload test data in CSV format.
-2. Preview the uploaded test data.
-3. Select one of the five implemented machine learning models.
-4. Generate predictions using the selected model.
-5. Display the six required evaluation metrics.
-6. Display the confusion matrix.
-7. Display the classification report.
-8. Display a comparison of all five models.
-9. Display prediction results for the uploaded test data.
+The application also includes a customized sidebar with project controls and dataset information.
 
 ### Implemented Models
 
