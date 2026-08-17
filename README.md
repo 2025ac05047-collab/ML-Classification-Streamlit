@@ -196,6 +196,7 @@ ML_Classification_Project/
     ├── naive_bayes.pkl
     ├── random_forest.pkl
     └── scaler.pkl
+```
 ## 10. GitHub Repository
 
 **GitHub Repository:**  
@@ -205,4 +206,4 @@ ML_Classification_Project/
 ## 11. Streamlit Application
 
 **Live Streamlit Application:**  
-[ML Classification Streamlit App](https://ml-classification-app-nxtmqphyeienwjewdi5zsk.streamlit.app/)
+[ML Classification Streamlit App](https://ml-classification-app-nxtmqhyeienwjedl5zsk.streamlit.app/)
