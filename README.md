@@ -205,4 +205,4 @@ ML_Classification_Project/
 ## 11. Streamlit Application
 
 **Live Streamlit Application:**  
-[To be updated after Streamlit Community Cloud deployment]
+[ML Classification Streamlit App](https://ml-classification-app-nxtmqphyeienwjewdi5zsk.streamlit.app/)
