@@ -206,4 +206,4 @@ ML_Classification_Project/
 ## 11. Streamlit Application
 
 **Live Streamlit Application:**  
-[ML Classification Streamlit App](https://ml-classification-app-nxtmqhyeienwjedl5zsk.streamlit.app/)
+[ML Classification Streamlit App](https://ml-classification-app-nxtmqphyeienwjewdi5zsk.streamlit.app)
