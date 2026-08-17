@@ -23,12 +23,30 @@ import seaborn as sns
 # ============================================================
 
 st.set_page_config(
-    page_title="ML Classification Dashboard",
-    page_icon="🤖",
+    page_title="Breast Cancer ML Model Evaluation",
+    page_icon="🦠",
     layout="wide"
 )
 
-st.title("🤖 ML Classification Dashboard")
+with st.sidebar:
+    st.title("🦠 Project Controls")
+
+    st.subheader("Dataset")
+    st.write("Upload your test dataset and select a model for evaluation.")
+
+    st.divider()
+
+    st.subheader("About")
+    st.write(
+        "This application compares five classification models "
+        "using six evaluation metrics."
+    )
+
+    st.divider()
+
+    st.caption("Breast Cancer ML Model Assignment")
+
+st.title("🦠 Breast Cancer ML Model Evaluation Dashboard")
 st.write(
     "Interactive evaluation of five machine learning "
     "classification models using test data."
@@ -100,12 +118,13 @@ except Exception as e:
 # CSV UPLOAD
 # ============================================================
 
-st.header("1. Upload Test Data")
+with st.sidebar:
+    st.subheader("Upload Test Data")
 
-uploaded_file = st.file_uploader(
-    "Upload test_data.csv",
-    type=["csv"]
-)
+    uploaded_file = st.file_uploader(
+        "Choose CSV file",
+        type=["csv"]
+    )
 
 if uploaded_file is None:
 
@@ -453,3 +472,20 @@ st.dataframe(
     prediction_results,
     use_container_width=True
 )
+st.subheader("📊 Compare Model Performance")
+
+metric_to_plot = st.selectbox(
+    "Select a metric to compare:",
+    [
+        "Accuracy",
+        "AUC",
+        "Precision",
+        "Recall",
+        "F1 Score",
+        "MCC"
+    ]
+)
+
+chart_data = comparison_df[[metric_to_plot]]
+
+st.bar_chart(chart_data)
