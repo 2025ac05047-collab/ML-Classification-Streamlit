@@ -196,3 +196,15 @@ ML_Classification_Project/
     ├── naive_bayes.pkl
     ├── random_forest.pkl
     └── scaler.pkl
+    ## 10. GitHub Repository
+
+GitHub Repository:
+
+https://github.com/2025ac05047-collab/ML-Classification-Streamlit
+
+
+## 11. Streamlit Application
+
+Live Streamlit Application:
+
+[TO BE UPDATED AFTER STREAMLIT COMMUNITY CLOUD DEPLOYMENT]
